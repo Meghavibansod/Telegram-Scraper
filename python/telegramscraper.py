@@ -1,8 +1,3 @@
-#Source: https://python.gotrained.com/scraping-telegram-group-members-python-telethon/
-#15Nov2020 - Modified by Changdeo Gaikwad to add an option of scraping contacts from all groups
-#----------------------
-#
-
 from telethon.sync import TelegramClient
 # The TelegramClient aggregates several mixin classes to provide all the common functionality in a nice, Pythonic interface. Each mixin has its own methods, which you all can use.
 from telethon.tl.functions.messages import GetDialogsRequest
